@@ -1,0 +1,5 @@
+@import './shared.module.css';
+
+.text_heading_red {
+  @apply text_heading text-red-500 underline;
+}

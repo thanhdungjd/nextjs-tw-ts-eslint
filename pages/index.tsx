@@ -1,4 +1,5 @@
-import Head from "next/head";
+import Head from 'next/head';
+import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
@@ -9,9 +10,15 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1 className="text-red-500 block text-center border border-green-500 p-5  mx-auto mt-20 underline">
+      <h1 className="mx-auto mt-20 block border border-green-500 p-5  text-center text-red-500 underline">
         cleaned up!
       </h1>
+
+      <div className="debug mx-auto inline-block p-5 text-center">
+        <p className={styles.text_heading}>text heading</p>
+
+        <p className={styles.text_heading_red}>text heading red</p>
+      </div>
     </>
   );
 }
