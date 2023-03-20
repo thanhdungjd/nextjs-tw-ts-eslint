@@ -9,7 +9,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>cleaned up!</main>
+      <h1 className="text-red-500 block text-center border border-green-500 p-5  mx-auto mt-20 underline">
+        cleaned up!
+      </h1>
     </>
   );
 }
